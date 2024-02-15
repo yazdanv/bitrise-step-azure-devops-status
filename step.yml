@@ -5,9 +5,9 @@ summary: |
 description: |
   Update commit status for Azure DevOps repositories.
   This step always runs, no matter if build succeeded or failed.
-website: https://github.com/mediusoft/bitrise-step-azure-devops-status
-source_code_url: https://github.com/mediusoft/bitrise-step-azure-devops-status
-support_url: https://github.com/mediusoft/bitrise-step-azure-devops-status/issues
+website: https://github.com/yazdanv/bitrise-step-azure-devops-status
+source_code_url: https://github.com/yazdanv/bitrise-step-azure-devops-status
+support_url: https://github.com/yazdanv/bitrise-step-azure-devops-status/issues
 host_os_tags:
   - osx-10.10
   - ubuntu-16.04
