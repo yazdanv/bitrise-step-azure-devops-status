@@ -83,6 +83,27 @@ inputs:
       is_expand: true
       is_required: true
 
+  - devops_object_type: commits
+    opts:
+      description: |
+        The type of object that is being updated.
+
+        Possible values are `commits`, `pullrequests`
+      is_expand: true
+      is_required: false
+      title: DevOps Object Type
+      value_options:
+      - commits
+      - pullrequests
+
+  - devops_repository_id: $BITRISE_COMMIT_ID
+    opts:
+      title: Commit or PullRequest ID
+      description: |
+        The Id to use, either $BITRISE_COMMIT_ID or $PULL_REQUEST_ID
+      is_expand: true
+      is_required: true
+
   - devops_commit_state: "auto"
     opts:
       title: Commit status
