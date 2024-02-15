@@ -17,10 +17,10 @@ app:
   - AZURE_DEVOPS_REPOSITORY_ID: a1b2c3d4-a1b2-a1b2-a1b2-a1b2c3d4e5f6
 
   # If you want to share this step into a StepLib
-  - BITRISE_STEP_ID: azure-devops-status
-  - BITRISE_STEP_VERSION: "1.0.1"
-  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/mediusoft/bitrise-step-azure-devops-status.git
-  - MY_STEPLIB_REPO_FORK_GIT_URL: https://github.com/mediusoft/bitrise-steplib
+  - BITRISE_STEP_ID: azure-devops-report-status
+  - BITRISE_STEP_VERSION: "1.0.0"
+  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/yazdanv/bitrise-step-azure-devops-status.git
+  - MY_STEPLIB_REPO_FORK_GIT_URL: https://github.com/bitrise-io/bitrise-steplib
 
 workflows:
   test:
